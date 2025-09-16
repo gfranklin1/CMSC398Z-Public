@@ -21,8 +21,20 @@ Welcome to my repository for ```CMSC398Z - Effective use of AI Coding Assistants
 
 ---
 
-### Project 2: ****  
+### Project 2: **Documenting a Markov Model Text Generator**  
 **Description:**  
+- Given a fully implemented Markov model text generator, the task was to add proper **docstrings**, **comments**, and **code documentation**.
+- The Markov model generates random text based on an input corpus, using a configurable `n`-order model (default 2), and colors the output based on the model’s entropy (i.e., how many different next words could be chosen).
+- Docstrings were added for:
+  - The `MarkovModel` class.
+  - All methods including `__init__`, `reset()`, `saw()`, `learn_from()`, `predict()`, and the helper function `entropy()`.
+  - The `main()` function handling command-line input and generation loop.
+- Comments were added to explain:
+  - Every class attribute and its role.
+  - Non-obvious control flow such as special handling for all-uppercase lines, paragraph breaks, and entropy-based coloring.
+- **Used GitHub Copilot as a pair-programmer** to help generate initial documentation and explain unfamiliar parts of the code.
+- **Did not modify or add to the original code logic**, only focused on understanding and documenting it correctly.
+- Verified functionality and behavior using breakpoints and debugger to ensure accurate documentation of edge cases and design choices.
 
 **Grade:**
 
