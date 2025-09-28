@@ -40,8 +40,14 @@ Welcome to my repository for ```CMSC398Z - Effective use of AI Coding Assistants
 
 ---
 
-### Project 3: ****
+### Project 3: **Poker Analysis**
 **Description:**  
+ - Implemented a Python-based poker-hand analysis tool that examines a set of seven playing cards and determines the best 5-card poker hand.
+ - Core logic lives in `poker_analysis.py` and includes functions to evaluate 5-card hands (`evaluate_five`) and to choose the best 5-card hand from seven cards (`best_hand_from_seven`).
+ - Supports the three test levels described in the assignment: (1) identify the best hand rank, (2) identify which cards contribute to that rank, and (3) return the five ordered cards used for hand comparisons.
+ - Uses the provided `hand_rank.py` enum for hand categories and includes a test harness and unit tests (`test_harness.py`, `test_poker_hand.py`) plus a `testData/` directory with cases for each hand type.
+ - Includes optional side-quest functionality (example code and notes) to simulate completing partial hands and to estimate percentile/chance of final hands or win/tie probabilities against opponents.
+ - **The entire project was written using Copilot coaching mode as a continuation on how AI Agents work; I did not write any code myself.**
 
 **Grade:** 
 
