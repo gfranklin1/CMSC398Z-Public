@@ -53,9 +53,14 @@ Welcome to my repository for ```CMSC398Z - Effective use of AI Coding Assistants
 
 ---
 
-### Project 4: ****  
+### Project 4: **Foreclosures Analysis**  
 **Description:**  
-
+ - Implemented a Python toolkit to parse street addresses, geocode missing ZIP codes, validate points against Prince George’s County, and produce map-ready data.  
+ - Core logic lives in `parse_address.py`, geocoding_utils.py, and augment_foreclosures.py (fills missing ZIPs and writes County_Foreclosures_augmented.csv).  
+ - Includes geographic validation using `pg_county_boundary.geojson` via `check_pg_county.py` and unit tests (`test_parse_address.py`, `test_pg_boundary.py`).  
+ - Added mapping support: `scripts/generate_geojson.py` (creates `web/data/foreclosures.geojson` with optional geocoding + cache) and `web/foreclosures_map.html` (Leaflet + MarkerCluster with pale background so clusters expand as you zoom).  
+ - Uses `requests` for Nominatim geocoding and `shapely` for geometry checks; scripts respect Nominatim rate limits and cache results to avoid repeated calls.  
+ - **Built with GitHub Copilot as a pair-programmer** (I reviewed and integrated the outputs).
 
 **Grade:**
 
@@ -67,6 +72,37 @@ Welcome to my repository for ```CMSC398Z - Effective use of AI Coding Assistants
 
 **Grade:**
 
+---
+
+### Project 6: ****
+**Description:**
+
+
+**Grade:**
+
+---
+
+### Project 7: ****
+**Description:**
+
+
+**Grade:**
+
+---
+
+### Project 8: ****
+**Description:**
+
+
+**Grade:**
+
+---
+
+### Project 9: ****
+**Description:**
+
+
+**Grade:**
 
 ---
 
